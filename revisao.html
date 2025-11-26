@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicando Projetos Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            text-align: center;
+            padding: 30px 10px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #005ea6;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #007acc;
+        }
+        pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            overflow-x: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007acc;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Como Publicar Projetos Web</h1>
+        <p>Aprenda a usar GitHub Pages, Vercel, Netlify e criar um README eficiente</p>
+    </header>
+
+    <nav>
+        <a href="#github">GitHub Pages</a>
+        <a href="#vercel">Vercel</a>
+        <a href="#netlify">Netlify</a>
+        <a href="#readme">README</a>
+    </nav>
+
+    <section id="github">
+        <h2>1. Publicar no GitHub Pages</h2>
+        <p>GitHub Pages é uma forma simples de hospedar sites estáticos diretamente de um repositório GitHub.</p>
+        <ol>
+            <li>Crie uma conta no GitHub.</li>
+            <li>Crie um repositório público e faça upload do seu site (index.html, CSS, JS).</li>
+            <li>No repositório, vá em <strong>Settings → Pages</strong> e escolha o branch <code>main</code>.</li>
+            <li>Salve e aguarde alguns minutos. O site estará disponível em <code>https://seu-usuario.github.io/nome-do-repositorio/</code>.</li>
+        </ol>
+    </section>
+
+    <section id="vercel">
+        <h2>2. Publicar no Vercel</h2>
+        <p>Vercel é uma plataforma de deploy rápido para sites estáticos e aplicações JavaScript.</p>
+        <ol>
+            <li>Crie uma conta em <a href="https://vercel.com" target="_blank">Vercel</a>.</li>
+            <li>Conecte sua conta do GitHub e escolha o repositório do projeto.</li>
+            <li>Configure as opções de build (ou use padrão) e clique em <strong>Deploy</strong>.</li>
+            <li>O site ficará disponível em um link do tipo <code>https://nome-do-projeto.vercel.app</code>.</li>
+        </ol>
+    </section>
+
+    <section id="netlify">
+        <h2>3. Publicar no Netlify</h2>
+        <p>Netlify é outra plataforma que facilita o deploy de sites estáticos com integração contínua.</p>
+        <ol>
+            <li>Crie uma conta em <a href="https://www.netlify.com/" target="_blank">Netlify</a>.</li>
+            <li>Clique em <strong>New site from Git</strong> e conecte o repositório do GitHub.</li>
+            <li>Configure as pastas de build se necessário e clique em <strong>Deploy site</strong>.</li>
+            <li>O site será publicado com uma URL do tipo <code>https://nome-do-site.netlify.app</code>.</li>
+        </ol>
+    </section>
+
+    <section id="readme">
+        <h2>4. Criando um README</h2>
+        <p>O README é o cartão de apresentação do seu projeto no GitHub:</p>
+        <ul>
+            <li>Explique o que o projeto faz.</li>
+            <li>Mostre como instalar, configurar ou usar.</li>
+            <li>Inclua imagens ou links se necessário.</li>
+            <li>Use formatação Markdown para títulos, listas e código.</li>
+        </ul>
+        <p>Exemplo de README básico:</p>
+        <pre>
+# Meu Projeto
+Descrição curta do projeto.
+
+## Como usar
+1. Clonar o repositório
+2. Abrir o arquivo index.html
+        </pre>
+    </section>
+
+    <footer>
+        <p>© 2025 Tutorial de Publicação Web</p>
+    </footer>
+
+</body>
+</html>
